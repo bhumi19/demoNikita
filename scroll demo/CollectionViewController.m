@@ -28,8 +28,6 @@ static NSString * const reuseIdentifier = @"Cell";
     // Do any additional setup after loading the view.
     recipeImages = [[NSArray alloc]initWithObjects:@"001.png",@"002.png",@"003.png",@"004.png",@"005.png",@"006.png",@"006.png",@"006.png",@"006.png",@"006.png",@"006.png",@"006.png",@"006.png",@"006.png",@"006.png",@"006.png", nil];
     
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"" message:@"" delegate:nil cancelButtonTitle:@"cancel" otherButtonTitles:nil, nil];
-    [alert show];
     
     //self.collectionView.allowsMultipleSelection = YES;
 }
